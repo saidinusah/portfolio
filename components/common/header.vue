@@ -1,6 +1,8 @@
 <template>
-  <nav class="grid grid-cols-6 py-4">
-    <ul class="col-span-4 col-start-2 flex items-center justify-between">
+  <nav class="grid lg:grid-cols-6 lg:py-4 py-2 grid-cols-7">
+    <ul
+      class="lg:col-span-4 lg:col-start-2 col-span-5 col-start-2 flex items-center justify-between lg:px-4"
+    >
       <li class="font-bold text-xl">
         <NuxtLink to="/" class="lg:hidden"> said </NuxtLink>
       </li>

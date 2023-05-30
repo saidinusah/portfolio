@@ -1,6 +1,10 @@
 <template>
-  <section class="flex justify-center w-full space-y-12 flex-col h-full overflow-hidden">
-    <p class="text-4xl text-primary font-medium leading-tight w-4/5">
+  <section
+    class="flex justify-center w-full lg:space-y-12 space-y-6 flex-col h-full overflow-hidden"
+  >
+    <p
+      class="lg:text-4xl text-2xl text-primary font-medium leading-tight lg:w-4/5 w-full"
+    >
       Hi I'm <span class="text-text-secondary hover:underline font-semibold">Saïd</span>,
       a web engineer who provides digital solutions😉.
     </p>
