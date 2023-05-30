@@ -1,7 +1,5 @@
 <template>
-  <section
-    class="flex justify-center w-full space-y-12 flex-col h-full border-b-2 border-b-text-secondary"
-  >
+  <section class="flex justify-center w-full space-y-12 flex-col h-full overflow-hidden">
     <p class="text-4xl text-primary font-medium leading-tight w-4/5">
       Hi I'm <span class="text-text-secondary hover:underline font-semibold">Saïd</span>,
       a web engineer who provides digital solutions😉.
