@@ -7,4 +7,7 @@
       </section>
     </div>
   </main>
+  <footer>
+    <CommonFooter />
+  </footer>
 </template>
