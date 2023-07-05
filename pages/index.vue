@@ -4,12 +4,17 @@
   >
     <p
       class="lg:text-4xl text-2xl text-primary font-medium leading-tight lg:w-4/5 w-full"
+      data-aos="fade-down"
+      data-aos-delay="500"
+      data-aos-easing="linear"
     >
-      Hi I'm <span class="text-text-secondary hover:underline font-semibold">Saïd</span>,
-      a web engineer who provides digital solutions😉.
+      Hi I'm
+      <span class="text-text-secondary hover:underline font-semibold" data-aos="fade-down"
+        >Said</span
+      >, a web engineer who provides digital solutions😉.
     </p>
-    <section>
-      Stack
+    <section data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="1000">
+      <span> Stack </span>
 
       <div
         class="flex space-x-2 items-center border-b border-b-text-secondary/50 py-4 rounded-md max-w-md"
