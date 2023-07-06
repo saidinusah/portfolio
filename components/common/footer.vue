@@ -7,7 +7,7 @@
       </li>
 
       <li>
-        <a href="mailto:saidinush29@gmail.com">contact</a>
+        <a href="mailto:saidinush29@gmail.com?subject=Hello Said">contact</a>
       </li>
     </ul>
   </nav>
