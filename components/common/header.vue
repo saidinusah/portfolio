@@ -1,5 +1,5 @@
 <template>
-  <nav class="grid lg:grid-cols-6 lg:py-4 py-2 grid-cols-7">
+  <nav class="grid lg:grid-cols-6 lg:py-4 py-6 grid-cols-7">
     <ul
       class="lg:col-span-4 lg:col-start-2 col-span-5 col-start-2 flex items-center justify-between lg:px-4"
     >
@@ -19,7 +19,7 @@
 </template>
 
 <style scoped>
-.links {
-  @apply lg:w-8 lg:h-8   hover:scale-125 hover:transition-transform hover:delay-150;
-}
+  .links {
+    @apply lg:w-8 lg:h-8   hover:scale-125 hover:transition-transform hover:delay-150;
+  }
 </style>
