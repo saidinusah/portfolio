@@ -49,7 +49,7 @@ export default defineNuxtConfig({
         },
         {
           property: "og:image",
-          content: "/public/android-chrome-512x512.png",
+          content: "https://saidinusah.vercel.app/android-chrome-512x512.png",
         },
         {
           property: "og:type",
@@ -57,8 +57,10 @@ export default defineNuxtConfig({
         },
         {
           property: "og:url",
-          content: "https://saidinusah.vercel.app/",
+          content: "https://saidinusah.vercel.app",
         },
+        { name: "twitter:site", content: "@1nusah" },
+        { name: "twitter:creator", content: "@1nusah" },
       ],
       htmlAttrs: {
         lang: "en",
