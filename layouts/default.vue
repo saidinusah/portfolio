@@ -1,5 +1,7 @@
 <template>
-  <main class="lg:flex lg:justify-between lg:flex-row-reverse">
+  <main
+    class="lg:flex lg:justify-between lg:flex-row-reverse lg:max-w-4xl mx-auto"
+  >
     <CommonHeader />
     <div
       class="grid lg:grid-cols-5 grid-cols-7 bg-white lg:h-[90vh] h-[80vh] w-screen"
@@ -9,7 +11,9 @@
       </section>
     </div>
   </main>
-  <footer class="grid lg:grid-cols-5 grid-cols-7 bg-white w-screen">
+  <footer
+    class="grid lg:grid-cols-5 grid-cols-7 bg-white w-screen lg:max-w-4xl mx-auto"
+  >
     <CommonFooter />
   </footer>
 </template>

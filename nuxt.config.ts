@@ -71,4 +71,5 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   css: ["~/assets/css/index.css"],
   plugins: [{ src: "~/plugins/aos", mode: "client" }],
+  ssr: true,
 });
