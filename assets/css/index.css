@@ -4,6 +4,81 @@
 
 @layer base {
   body {
-    font-family: "Roboto Mono", monospace !important;
+    /* font-family: "Roboto Mono", monospace !important; */
+    color: white;
+  }
+
+
+  @font-face {
+    font-family: 'fraunces-bold';
+    src: url('/assets/fonts/Frances/Fraunces-Bold.ttf');
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      'SOFT' 0,
+      'WONK' 0;
+  }
+
+  @font-face {
+    font-family: 'fraunces-regular';
+    src: url('/assets/fonts/Frances/Fraunces-Regular.ttf');
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      'SOFT' 0,
+      'WONK' 0;
+  }
+
+  @font-face {
+    font-family: 'fraunces-semibold';
+    src: url('/assets/fonts/Frances/Fraunces-SemiBold.ttf');
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      'SOFT' 0,
+      'WONK' 0;
+  }
+
+  @font-face {
+    font-family: 'fraunces-medium';
+    src: url('/assets/fonts/Frances/Fraunces-Medium.ttf');
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      'SOFT' 0,
+      'WONK' 0;
+  }
+
+  @font-face {
+    font-family: 'avenir-heavy';
+    src: url('/assets/fonts/Avernir/AvenirHeavy.ttf');
+  }
+
+  @font-face {
+    font-family: 'avenir-regular';
+    src: url('/assets/fonts/Avernir/AvenirRegular.ttf');
+  }
+
+  @font-face {
+    font-family: 'avenir-black';
+    src: url('/assets/fonts/Avernir/AvenirBlack.ttf');
+  }
+
+  @font-face {
+    font-family: 'avenir-medium';
+    src: url('/assets/fonts/Avernir/AvenirBook.ttf');
+  }
+
+  @font-face {
+    font-family: 'avernir-light';
+    src: url('/assets/fonts/Avernir/AvenirLight.ttf');
+  }
+
+
+}
+
+@layer components {
+  h3 {
+    @apply font-normal font-[fraunces] text-lg leading-6
   }
 }

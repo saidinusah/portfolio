@@ -1,39 +1,43 @@
 <template>
-  <section
-    class="flex justify-center w-full lg:space-y-12 space-y-6 flex-col h-full overflow-hidden"
-  >
-    <p
-      class="lg:text-4xl text-2xl text-primary font-medium leading-tight lg:w-4/5 w-full"
-      data-aos="fade-down"
-      data-aos-delay="500"
-      data-aos-easing="linear"
-    >
-      Hi I'm
-      <span class="text-text-secondary hover:underline font-semibold" data-aos="fade-down"
-        >Said</span
-      >, a web engineer who provides digital solutions😉.
-    </p>
-    <section data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="1000">
-      <span> Stack </span>
-
-      <div
-        class="flex space-x-2 items-center border-b border-b-text-secondary/50 py-4 rounded-md max-w-md"
-      >
-        <IconsTypescript class="icon" />
-        <IconsJavascript class="icon" />
-        <IconsReact class="icon" />
-        <IconsVue class="icon" />
-        <IconsHtml class="icon" />
-        <IconsTailwind class="icon" />
-        <IconsCss class="icon" />
-        <IconsNode class="icon" />
+  <main class="bg-[#10132D] p-6">
+    <div class="space-y-6 py-4">
+      <div class=" space-y-1.5">
+        <h1 class="text-[2rem] leading-10 font-fraunces-bold">Said <span class="text-alt-heading">Inusah</span></h1>
+        <p class="text-sm leading-4 font-fraunces-regular"> Software engineer at <span class="text-alt-heading">
+            <NuxtLink to="https://affinityafrica.com" external>
+              Affinity Labs.
+            </NuxtLink>
+          </span></p>
       </div>
-    </section>
-  </section>
-</template>
 
-<style scoped>
-.icon {
-  @apply w-10 h-10 hover:fill-primary cursor-pointer hover:scale-150;
-}
-</style>
+      <div class="space-y-1">
+        <p class="text-about  text-sm font-avenir-medium "> I'm a software engineer who loves building web products
+          from end to end. </p>
+        <p class="text-about  text-sm font-avenir-medium"> All I
+          need is an <span class="text-white"> idea</span> with my <span class="text-white">laptop </span> and I become
+          the modern day <span>
+            <NuxtLink to="https://simple.wikipedia.org/wiki/Hecate" external class="text-white underline">
+              Hecate.
+            </NuxtLink>
+          </span></p>
+      </div>
+      <div class="flex items-center space-x-4 pt-2">
+        <NuxtLink to="https://www.linkedin.com/in/saidinusah" external target="_blank">
+          <IconsLinkedin2 class="w-6 h-6" />
+        </NuxtLink>
+
+        <NuxtLink to="https://github.com/saidinusah" external target="_blank">
+          <IconsGithub2 />
+        </NuxtLink>
+      </div>
+
+
+    </div>
+
+
+
+    <LazySectionsAbout />
+    <LazySectionsExperience />
+    <LazySectionsExperiments />
+  </main>
+</template>
